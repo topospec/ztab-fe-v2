@@ -14,7 +14,7 @@ import {
 import Link from "next/link"
 import Image from "next/image"
 
-export default function Home() {
+export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       {/* Header */}
@@ -78,8 +78,8 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Why Choose UVAz?</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  An innovative inflation-protected stablecoin pegged initially to Argentina's UVA index and backed by inflation-indexed
-                  bonds, making it a reliable asset tied to Argentina's economic reality.
+                  An innovative inflation-protected stablecoin pegged initially to Argentina&apos;s UVA index and backed by inflation-indexed
+                  bonds, making it a reliable asset tied to Argentina&apos;s economic reality.
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
                   <Shield className="h-12 w-12 mb-4 text-primary" />
                   <h3 className="text-xl font-bold">Inflation Hedge</h3>
                   <p className="text-gray-500">
-                    Shield your finances from rising inflation with an asset pegged to Argentina's trusted inflation index.
+                    Shield your finances from rising inflation with an asset pegged to Argentina&apos;s trusted inflation index.
                   </p>
                 </CardContent>
               </Card>
@@ -107,7 +107,7 @@ export default function Home() {
                   <LineChart className="h-12 w-12 mb-4 text-primary" />
                   <h3 className="text-xl font-bold">Local Relevance</h3>
                   <p className="text-gray-500">
-                    Designed for Argentines, by Argentines, to reflect and adapt to Argentina's economic landscape.
+                    Designed for Argentines, by Argentines, to reflect and adapt to Argentina&apos;s economic landscape.
                   </p>
                 </CardContent>
               </Card>
@@ -225,7 +225,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">A Proven System with Transparent Backing</h2>
                 <p className="max-w-[900px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Regular audits and auditories underscore UVAz's foundation of trust.
+                  Regular audits and auditories underscore UVAz&apos;s foundation of trust.
                 </p>
               </div>
             </div>
@@ -254,7 +254,7 @@ export default function Home() {
                 <p className="text-sm text-white/90">
                   By subscribing, you agree to our{" "}
                   <Link className="underline underline-offset-2" href="#">
-                    Terms & Conditions
+                    Terms &amp; Conditions
                   </Link>
                 </p>
               </div>
