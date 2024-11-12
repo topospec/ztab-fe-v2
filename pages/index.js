@@ -59,12 +59,20 @@ export default function Component() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-2">
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+                <Button className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  onClick={() => {
+                    window.open('https://t.me/ztabilize', '_blank');
+                  }}
+                >
                   Get Started with UVAz
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
-                  Explore Inflation Protection
+                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black"
+                  onClick={() => {
+                    window.open('mailto:mmorcos@ztabilize.com', '_blank');
+                  }}
+                >
+                  Join Waitlist
                 </Button>
               </div>
             </div>
