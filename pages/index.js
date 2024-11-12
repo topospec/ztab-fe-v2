@@ -58,7 +58,7 @@ export default function Component() {
                   Discover our first Flacoin: An Inflation-Protected and Stable Currency.
                 </p>
               </div>
-              <div className="space-x-4">
+              <div className="flex flex-col sm:flex-row gap-2">
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
                   Get Started with UVAz
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -84,8 +84,8 @@ export default function Component() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              <Card className="relative overflow-hidden">
-                <CardContent className="p-6">
+              <Card className="relative overflow-hidden md:h-[200px] pt-3">
+                <CardContent>
                   <Shield className="h-12 w-12 mb-4 text-primary" />
                   <h3 className="text-xl font-bold">Inflation Hedge</h3>
                   <p className="text-gray-500">
@@ -93,8 +93,8 @@ export default function Component() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="relative overflow-hidden">
-                <CardContent className="p-6">
+              <Card className="relative overflow-hidden md:h-[200px] pt-3">
+                <CardContent>
                   <Lock className="h-12 w-12 mb-4 text-primary" />
                   <h3 className="text-xl font-bold">Bond-Backed Security</h3>
                   <p className="text-gray-500">
@@ -102,8 +102,8 @@ export default function Component() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="relative overflow-hidden">
-                <CardContent className="p-6">
+              <Card className="relative overflow-hidden md:h-[200px] pt-3">
+                <CardContent>
                   <LineChart className="h-12 w-12 mb-4 text-primary" />
                   <h3 className="text-xl font-bold">Local Relevance</h3>
                   <p className="text-gray-500">
@@ -151,8 +151,8 @@ export default function Component() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Reliable, Predictable, Secure</h2>
               </div>
               <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-                <Card>
-                  <CardContent className="p-6">
+                <Card className="relative overflow-hidden md:h-[200px] pt-3">
+                  <CardContent>
                     <LineChart className="h-12 w-12 mb-4 text-primary" />
                     <h3 className="text-xl font-bold">Predictable Value</h3>
                     <p className="text-gray-500">
@@ -160,8 +160,8 @@ export default function Component() {
                     </p>
                   </CardContent>
                 </Card>
-                <Card>
-                  <CardContent className="p-6">
+                <Card className="relative overflow-hidden md:h-[200px] pt-3">
+                  <CardContent>
                     <CheckCircle className="h-12 w-12 mb-4 text-primary" />
                     <h3 className="text-xl font-bold">Transparency</h3>
                     <p className="text-gray-500">
@@ -169,8 +169,8 @@ export default function Component() {
                     </p>
                   </CardContent>
                 </Card>
-                <Card>
-                  <CardContent className="p-6">
+                <Card className="relative overflow-hidden md:h-[200px] pt-3">
+                  <CardContent>
                     <Wallet className="h-12 w-12 mb-4 text-primary" />
                     <h3 className="text-xl font-bold">Broad Utility</h3>
                     <p className="text-gray-500">Ideal for savings, payments, and everyday financial stability.</p>
@@ -189,24 +189,24 @@ export default function Component() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Financial Solutions Made for You</h2>
               </div>
               <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-                <Card>
-                  <CardContent className="p-6">
+                <Card className="relative overflow-hidden md:h-[150px] pt-6">
+                  <CardContent>
                     <h3 className="text-xl font-bold">Everyday Expenses</h3>
                     <p className="text-gray-500">
                       Use UVAz for everyday expenses while protecting your wealth from inflation.
                     </p>
                   </CardContent>
                 </Card>
-                <Card>
-                  <CardContent className="p-6">
+                <Card className="relative overflow-hidden md:h-[150px] pt-6">
+                  <CardContent>
                     <h3 className="text-xl font-bold">Long-Term Savings</h3>
                     <p className="text-gray-500">
                       For saving and storing value reliably, UVAz provides a hedge against economic uncertainty.
                     </p>
                   </CardContent>
                 </Card>
-                <Card>
-                  <CardContent className="p-6">
+                <Card className="relative overflow-hidden md:h-[150px] pt-6">
+                  <CardContent>
                     <h3 className="text-xl font-bold">Investment Security</h3>
                     <p className="text-gray-500">
                       Bond backing offers a stable foundation, perfect for safer investment growth.
@@ -261,7 +261,7 @@ export default function Component() {
               <div className="flex flex-col gap-2 min-[400px]:flex-row items-center justify-center mt-8">
                 <Button className="bg-black hover:bg-gray-900 text-white">
                   Mint UVAz Now
-                  <ArrowRight  className="ml-2 h-4 w-4" />
+                  <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
                   Read Whitepaper
