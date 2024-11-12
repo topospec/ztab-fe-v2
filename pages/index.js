@@ -58,7 +58,7 @@ export default function Component() {
                   Discover our first Flacoin: An Inflation-Protected and Stable Currency.
                 </p>
               </div>
-              <div className="space-x-4">
+              <div className="flex flex-col sm:flex-row gap-2">
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
                   Get Started with UVAz
                   <ArrowRight className="ml-2 h-4 w-4" />
