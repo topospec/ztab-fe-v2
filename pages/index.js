@@ -59,12 +59,20 @@ export default function Component() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-2">
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+                <Button className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  onClick={() => {
+                    window.open('https://t.me/ztabilize', '_blank');
+                  }}
+                >
                   Get Started with UVAz
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
-                  Explore Inflation Protection
+                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black"
+                  onClick={() => {
+                    window.open('mailto:mmorcos@ztabilize.com', '_blank');
+                  }}
+                >
+                  Join Waitlist
                 </Button>
               </div>
             </div>
@@ -276,23 +284,23 @@ export default function Component() {
       {/* Footer */}
       <footer className="w-full py-6 bg-black text-white">
         <div className="container px-4 md:px-6 mx-auto">
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+          <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
             <div className="space-y-3">
               <h4 className="text-lg font-semibold">About</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link className="hover:text-primary" href="#">
-                    Our Story
+                  <Link className="hover:text-primary" href="https://medium.com/@mmorcos/the-denationalisation-of-money-is-here-b53cd0831488" target="_blank">
+                    Vision
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-primary" href="#">
-                    Team
+                  <Link className="hover:text-primary" href="https://medium.com/@mmorcos/lets-escape-inflation-bd30883c201d" target="_blank">
+                    Our story
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-primary" href="#">
-                    Careers
+                  <Link className="hover:text-primary" href="https://t.me/matiztabilize" target="_blank">
+                    Join us
                   </Link>
                 </li>
               </ul>
@@ -301,11 +309,11 @@ export default function Component() {
               <h4 className="text-lg font-semibold">Resources</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link className="hover:text-primary" href="#">
+                  <Link className="hover:text-primary" href="https://ztabilize.gitbook.io/whitepaper" target="_blank">
                     Whitepaper
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link className="hover:text-primary" href="#">
                     Documentation
                   </Link>
@@ -314,30 +322,30 @@ export default function Component() {
                   <Link className="hover:text-primary" href="#">
                     FAQs
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="space-y-3">
               <h4 className="text-lg font-semibold">Community</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link className="hover:text-primary" href="#">
-                    Discord
-                  </Link>
-                </li>
-                <li>
-                  <Link className="hover:text-primary" href="#">
+                  <Link className="hover:text-primary" href="https://x.com/ztabilize" target="_blank">
                     Twitter
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-primary" href="#">
+                  <Link className="hover:text-primary" href="https://t.me/ztabilize" target="_blank">
+                    Telegram
+                  </Link>
+                </li>
+                <li>
+                  <Link className="hover:text-primary" href="https://t.me/uvatoken" target="_blank">
                     Telegram
                   </Link>
                 </li>
               </ul>
             </div>
-            <div className="space-y-3">
+            {/* <div className="space-y-3">
               <h4 className="text-lg font-semibold">Legal</h4>
               <ul className="space-y-2">
                 <li>
@@ -356,7 +364,7 @@ export default function Component() {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-gray-800 pt-6 sm:flex-row">
             <div className="flex items-center gap-4">
