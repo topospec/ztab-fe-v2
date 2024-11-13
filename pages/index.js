@@ -61,7 +61,7 @@ export default function Component() {
               <div className="flex flex-col sm:flex-row gap-2">
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90"
                   onClick={() => {
-                    window.open('https://t.me/ztabilize', '_blank');
+                    window.open('https://t.me/uvatoken', '_blank');
                   }}
                 >
                   Get Started with UVAz
@@ -251,27 +251,35 @@ export default function Component() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <form className="flex flex-col gap-2 min-[400px]:flex-row">
+                {/* <form className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Input
                     className="bg-white/90 placeholder:text-gray-500"
                     placeholder="Enter your email"
                     type="email"
                   />
                   <Button className="bg-black hover:bg-gray-900 text-white">Subscribe</Button>
-                </form>
-                <p className="text-sm text-white/90">
+                </form> */}
+                {/* <p className="text-sm text-white/90">
                   By subscribing, you agree to our{" "}
                   <Link className="underline underline-offset-2" href="#">
                     Terms &amp; Conditions
                   </Link>
-                </p>
+                </p> */}
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row items-center justify-center mt-8">
-                <Button className="bg-black hover:bg-gray-900 text-white">
+                <Button className="bg-black hover:bg-gray-900 text-white"
+                  onClick={() => {
+                    window.open('https://t.me/uvatoken', '_blank');
+                  }}
+                >
                   Mint UVAz Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary"
+                  onClick={() => {
+                    window.open('https://ztabilize.gitbook.io/whitepaper', '_blank');
+                  }}
+                >
                   Read Whitepaper
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Button>
