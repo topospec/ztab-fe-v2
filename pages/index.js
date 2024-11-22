@@ -13,6 +13,7 @@ import {
 } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import Chart from "@/components/ui/chart"
 
 export default function Component() {
   return (
@@ -84,6 +85,40 @@ export default function Component() {
           <div className="container px-4 md:px-6 mx-auto">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">UVA vs other saving methods</h2>
+                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  An innovative inflation-protected stablecoin pegged initially to Argentina&apos;s UVA index and backed by inflation-indexed
+                  bonds, making it a reliable asset tied to Argentina&apos;s economic reality.
+                </p>
+              </div>
+            </div>
+            <div className="w-full flex flex-col md:flex-row justify-between gap-28">
+              <div className="w-full md:w-1/2 mt-8">
+                <Chart />
+              </div>
+              <div className="w-full md:w-1/2 mt-8">
+                <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Inflation Hedge</h3>
+                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Shield your finances from rising inflation with an asset pegged to Argentina&apos;s trusted inflation index.
+                </p>
+                <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl mt-4">Bond-Backed Security</h3>
+                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Sovereign bonds provide collateral, ensuring value stability.
+                </p>
+                <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl mt-4">Local Relevance</h3>
+                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Designed for Argentines, by Argentines, to reflect and adapt to Argentina&apos;s economic landscape.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* About Section */}
+        {/* <section id="about" className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6 mx-auto">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Why Choose UVAz?</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   An innovative inflation-protected stablecoin pegged initially to Argentina&apos;s UVA index and backed by inflation-indexed
@@ -121,7 +156,7 @@ export default function Component() {
               </Card>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* How It Works */}
         <section id="how-it-works" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
