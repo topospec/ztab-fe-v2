@@ -62,7 +62,7 @@ export default function Component() {
               <div className="flex flex-col sm:flex-row gap-2">
                 <Button className="bg-primary text-primary-foreground hover:bg-primary/90"
                   onClick={() => {
-                    window.open('https://t.me/uvatoken', '_blank');
+                    window.open('https://app.ztabilize.com', '_blank');
                   }}
                 >
                   Get Started with UVAz
@@ -70,10 +70,10 @@ export default function Component() {
                 </Button>
                 <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black"
                   onClick={() => {
-                    window.open('mailto:mmorcos@ztabilize.com', '_blank');
+                    window.open("https://t.me/+lpZ8RAtPVNpjMDcx", "_blank")
                   }}
                 >
-                  Join Waitlist
+                  Join Community
                 </Button>
               </div>
             </div>
@@ -377,12 +377,7 @@ export default function Component() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-primary" href="https://t.me/ztabilize" target="_blank">
-                    Telegram
-                  </Link>
-                </li>
-                <li>
-                  <Link className="hover:text-primary" href="https://t.me/uvatoken" target="_blank">
+                  <Link className="hover:text-primary" href="https://t.me/+lpZ8RAtPVNpjMDcx" target="_blank">
                     Telegram
                   </Link>
                 </li>
